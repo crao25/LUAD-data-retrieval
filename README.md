@@ -1,3 +1,3 @@
 # OV-data-retrieval
 
-This repository contains three different Rmarkdown files -> one for data retrieval from the TCGA database and creating an untrained MOFA object, second one for training the MOFA object and the third one which presents the analysis of the trained MOFA object.
+This repository contains an Rmarkdown file which mainly contains the code to retrieve the data from the ovarian cancer cohort of the TCGA database. Some preprocessing steps are included which are applied on the different omics data retrieved, in order to make the data usable for MOFA analysis. MOFA analysis is being used for the purpose of integrating the multi dimensional omics datasets. Hence a list is created from the retrieved data which is further used to create an untrained MOFA object. The output of this code is an HTML file. 
